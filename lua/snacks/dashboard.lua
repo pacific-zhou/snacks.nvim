@@ -1098,10 +1098,6 @@ function M.sections.startup(opts)
   return {
     align = "center",
     text = {
-      { icon .. "Neovim loaded ", hl = "footer" },
-      { M.lazy_stats.loaded .. "/" .. M.lazy_stats.count, hl = "special" },
-      { " plugins in ", hl = "footer" },
-      { ms .. "ms", hl = "special" },
     },
   }
 end
